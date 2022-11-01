@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <script defer src="index.js"></script>
+    <title>Contact Page</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <ul class="navbar-lists">
+                <li><a href="/index.html" class="navbar-link home-link">Home</a></li>
+                <li><a href="/about.html" class="navbar-link about-link">About</a></li>
+                <li><a href="/service.html" class="navbar-link service-link">Services</a></li>
+                <li><a href="/portfolio.html" class="navbar-link portfolio-link">Portfolio</a></li>
+                <li><a href="/contact.html" class="navbar-link contact-link">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="mobile-navbar-btn">
+            <ion-icon name="menu-outline" class="mobile-nav-icon"></ion-icon>
+            <ion-icon name="close-outline" class="mobile-nav-icon"></ion-icon>
+        </div>
+    </header>
+
+  <!--  ========= Contact Us section ======= -->
+
+  <section class="section section-contact">
+    <div class="container">
+        <h2 class="common-heading">Have a Question?</h2>
+    </div>
+
+    <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3682.8241429864715!2d88.44803625069001!3d22.62304123674539!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f89fdaa448adaf%3A0x8c0cb111f7e58621!2sCity%20Centre%202%2C%20Biswa%20Bangla%20Sarani%2C%20Dash%20Drone%2C%20Action%20Area%20IID%2C%20Newtown%2C%20Kolkata%2C%20West%20Bengal%20700157!5e0!3m2!1sen!2sin!4v1663358172582!5m2!1sen!2sin"
+    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <div class="section-contact-main contact-container">
+        <form action="https://formspree.io/f/xlevjpyb" method="POST">
+            <div class="grid grid-two-column">
+                <div>
+                    <label for="username"></label>
+                    <input type="text" name="username" placeholder="UserName" id="username" autocomplete="off"
+                        required />
+                </div>
+                <div>
+                    <label for="email"></label>
+                    <input type="email" name="email" placeholder="Demo@gmail.com" id="email" autocomplete="off"
+                        required />
+                </div>
+            </div>
+
+            <div>
+                <label for="subject"></label>
+                <input type="text" id="subject" name="subject" placeholder="Subject" autocomplete="off" required />
+            </div>
+            <div>
+                <label for="textarea"></label>
+                <textarea name="textarea" id="textarea" cols="30" rows="10" placeholder="Textarea"
+                    autocomplete="off" required></textarea>
+            </div>
+            <div>
+                <input type="submit" name="submit" class="btn" value="Send">
+            </div>
+        </form>
+    </div>
+</section>
+     <!--  =========  footer section  ========= -->
+
+      
+     <footer class="section section-footer ">
+        <div class="container grid grid-three-column">
+            <div class="f-about">
+                <h3>About</h3>
+                <p>I will love to hear from you. Wheather it's a project,job opportunity, or just a chat.
+                    Feel free to contact me.
+                </p>
+            </div>
+
+            <div class="f-links">
+                <h3>Links</h3>
+                <ul>
+                    <li><span>
+                            <ion-icon name="arrow-forward-outline"></ion-icon>
+                        </span><a href="/index.html">home</a></li>
+                    <li><span>
+                            <ion-icon name="arrow-forward-outline"></ion-icon>
+                        </span><a href="/about.html">about</a></li>
+                    <li><span>
+                            <ion-icon name="arrow-forward-outline"></ion-icon>
+                        </span><a href="/service.html">services</a></li>
+                    <li><span>
+                            <ion-icon name="arrow-forward-outline"></ion-icon>
+                        </span><a href="/portfolio.html">Portfolio</a></li>
+
+                    <li><span>
+                            <ion-icon name="arrow-forward-outline"></ion-icon>
+                        </span><a href="/contact.html">contact</a></li>
+                </ul>
+            </div>
+
+            <div class="f-address">
+                <h3>Contact Me</h3>
+                <address>
+                    <div>
+                        <p> <span>
+                                <ion-icon name="location-outline"></ion-icon>
+                            </span>Kolkata, India</p>
+                    </div>
+
+                    <div>
+                        <p> <span>
+                                <ion-icon name="call-outline"></ion-icon>
+                            </span> <a href="tel:+917047985204"> +91 7047985204 </a></p>
+                    </div>
+
+                    <div>
+                        <p> <span>
+                                <ion-icon name="mail-outline"></ion-icon>
+                            </span> <a href="mailto:vikrom7869@gmail.com"> vikrom7869@gmail.com </a> </p>
+                    </div>
+                </address>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="f-social-icons">
+                <a href="https://www.instagram.com/v_i_k_r_a_m_96/" target="_blank">
+                    <ion-icon class="icons" name="logo-instagram"></ion-icon>
+                </a>
+
+                <a href="https://linkedin.com/in/sk-burhanuddin-6500481b4" target="_blank">
+                    <ion-icon class="icons" name="logo-linkedin"></ion-icon>
+                </a>
+
+                <a href="https://linkedin.com/in/sk-burhanuddin-6500481b4" target="_blank">
+                    <ion-icon class="icons" name="logo-github"></ion-icon>
+                </a>
+
+            </div>
+
+            <div class="f-credits">
+                <p>No © Copyright Issues | This template is made with ❤ by ViTech</p>
+            </div>
+        </div>
+
+    </footer>
+
+
+        <!--  ======= javaScript links ===== -->
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+</body>
+</html>
